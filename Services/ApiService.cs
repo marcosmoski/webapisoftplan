@@ -16,7 +16,7 @@ namespace WebApiSoftplan.Services
 
     public string RetornarCodigo()
     {
-      return "https://gitlab.com/marcosmoski/webapisoftplan.git";
+      return "git clone https://github.com/marcosmoski/webapisoftplan.git";
     }
 
     public string ValorJuros()
