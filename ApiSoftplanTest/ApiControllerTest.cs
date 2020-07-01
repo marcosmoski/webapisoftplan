@@ -28,7 +28,7 @@ namespace ApiSoftplanTest
     [Fact]
     public void VerificarRepositorioGIT()
     {
-      Assert.Equal("https://gitlab.com/marcosmoski/webapisoftplan.git", _service.RetornarCodigo());
+      Assert.Equal("git clone https://github.com/marcosmoski/webapisoftplan.git", _service.RetornarCodigo());
     }
 
   }
